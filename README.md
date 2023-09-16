@@ -1,2 +1,2 @@
-# azure_flask_deplyoment
+# azure_flask_deployment
 azure flask deployment
