@@ -11,7 +11,7 @@ Summary:
 Steps:
 - Create a Flask application on Cloud Shell.
     1. Create a new Github repository named `azure_flask_deployment` in your Github account. Include a README.md file.
-    2. Copy the Github repository as a URL under `<> Code.`
+    2. Copy the Github repository as a URL under `<> Code`.
     3. In your Cloud Shell terminal, type `git clone` and paste the URL. This will create a clone of the Github repository locally in your Cloud Shell.
     4. In your Cloud Shell environment, create a python file named `app.py`. You can copy the code from [here](https://github.com/Beczheng/azure_flask_deployment/blob/main/app.py) and paste it into your file.
     5. Create a text file named `requirements.txt`. You can copy the code from [here](https://github.com/Beczheng/azure_flask_deployment/blob/main/requirements.txt) and paste it into your file.
