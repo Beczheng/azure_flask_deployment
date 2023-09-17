@@ -3,13 +3,13 @@ HHA 504: Week 2
 
 Homework assignment #2: Introducing Flask and Azure deployment
 
-Summary:
+Summary
 - Created a Flask application locally on Cloud Shell.
 - Deployed the Flask application using Azure App Service.
 - Flask application link: **beckie-504-flask.azurewebsites.net**
 
-Steps:
-- Create a Flask application on Cloud Shell.
+Steps
+- Create a Flask application on Cloud Shell:
     1. Create a new Github repository named `azure_flask_deployment` in your Github account. Include a README.md file.
     2. Copy the Github repository as a URL under `<> Code`.
     3. In your Cloud Shell terminal, type `git clone` and paste the URL. This will create a clone of the Github repository locally in your Cloud Shell.
@@ -27,8 +27,8 @@ Steps:
     3. Type `az login --use-device-code`. A link with a code will appear. Click on the link and enter the code. Then, login to your Microsoft Azure account. This will give Cloud Shell permission to access your Azure account. 
     3. Type `az webapp up --name <appname> --runtime PYTHON:3.9 --sku B1`. This will create a webapp for your Flask application.
 
-- Link to the Flask application: 
-    1. In your Microsoft Azure account, search "App Services" and click on it.
+- Locating link to Flask application: 
+    1. In your Microsoft Azure account, search and click on "App Services".
     2. Click on the name of your webapp.
     3. Click on the link to your webapp under "default domain".
 
