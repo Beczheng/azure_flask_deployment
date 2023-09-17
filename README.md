@@ -21,15 +21,11 @@ Steps:
     9. In your Cloud Shell terminal, commit the changes by typing **git commit -m 'insert a message'.**
     10. In your Cloud Shell terminal, push the changes by typing **git push.** This will push the changes to the repository in your Github account.
 
-<br>
-
 - Deploy the Flask application using Azure App Service:
     1. In your Cloud Shell terminal, type `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`. This will install the Azure CLI.
     2. Type `az` to check if Azure CLI is installed.
     3. Type `az login --use-device-code`. A link with a code will appear. Click on the link and enter the code. Then, login to your Microsoft Azure account. This will give Cloud Shell permission to access your Azure account. 
     3. Type `az webapp up --name <appname> --runtime PYTHON:3.9 --sku B1`. This will create a webapp for your Flask application.
-
-<br>
 
 - Link to the Flask application: 
     1. In your Microsoft Azure account, search "App Services" and click on it.
