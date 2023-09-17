@@ -6,7 +6,7 @@ Homework assignment #2: Introducing Flask and Azure deployment
 Summary:
 - Created a Flask application locally on Cloud Shell.
 - Deployed the Flask application using Azure App Service.
-- Flask application link: beckie-504-flask.azurewebsites.net
+- Flask application link: **beckie-504-flask.azurewebsites.net**
 
 Steps:
 - Create a Flask application on Cloud Shell.
