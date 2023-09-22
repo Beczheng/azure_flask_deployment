@@ -27,7 +27,7 @@ Steps
     3. Type `az login --use-device-code`. A link with a code will appear. Click on the link and enter the code. Then, login to your Microsoft Azure account. This will give Cloud Shell permission to access your Azure account. 
     3. Type `az webapp up --name <appname> --runtime PYTHON:3.9 --sku B1`. This will create a webapp for your Flask application.
 
-- Locating link to Flask application: 
+- Locate the link to the Flask application: 
     1. In your Microsoft Azure account, search and click on "App Services".
     2. Click on the name of your webapp.
     3. Click on the link to your webapp under "default domain".
