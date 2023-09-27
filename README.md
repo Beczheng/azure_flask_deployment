@@ -1,14 +1,15 @@
 # azure_flask_deployment
-HHA 504: Week 2
 
-Homework assignment #2: Introduction to Flask and Azure deployment
+### **Assignment**
+- Course: HHA 504:
+- Homework assignment #2: Introduction to Flask and Azure deployment
 
-Summary
+#### **Summary**
 - Created a Flask application locally on Cloud Shell.
 - Deployed the Flask application using Azure App Service.
 - Flask application link: **beckie-504-flask.azurewebsites.net**
 
-Steps
+#### **Steps**
 - Create a Flask application on Cloud Shell:
     1. Create a new Github repository named `azure_flask_deployment` in your Github account. Include a README.md file.
     2. Copy the Github repository as a URL under `<> Code`.
