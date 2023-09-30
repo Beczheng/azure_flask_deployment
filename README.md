@@ -1,7 +1,7 @@
 # azure_flask_deployment
 
 ### **Assignment**
-- Course: HHA 504:
+- Course: HHA 504
 - Homework assignment #2: Introduction to Flask and Azure deployment
 
 ### **Summary of my assignment**
