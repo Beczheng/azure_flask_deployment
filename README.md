@@ -1,15 +1,15 @@
 # azure_flask_deployment
 
-### **Assignment**
-- Course: HHA 504:
+### Assignment
+- Course: HHA 504
 - Homework assignment #2: Introduction to Flask and Azure deployment
 
-### **Summary of my assignment**
+### Summary of my assignment
 - Created a Flask application locally on Cloud Shell.
 - Deployed the Flask application using Azure App Service.
 - Flask application link: **beckie-504-flask.azurewebsites.net**
 
-### **Steps to replicate my assignment**
+### Steps to replicate my assignment
 #### 1. Create a Flask application on Cloud Shell:
 - Create a new Github repository named `azure_flask_deployment` in your Github account. Include a README.md file.
 - Copy the Github repository as a URL under `<> Code`.
@@ -29,7 +29,6 @@
 - Type `az account list --output table`. This will provide you a table of your subscriptions. Make sure that you are using the correct subscription. If not, type `az account set --subscription <SubscriptionId>` to change it.
 - Type `az group list` to double check everything.
 - Type `az webapp up --name <appname> --runtime PYTHON:3.9 --sku B1`. This will create a webapp for your Flask app.
-- To find your Flask app in your Microsoft Azure account, go to "App Services". Then, click on the name of your webapp. Lastly, click on the link to your webapp under "default domain".
 
 #### 3. Locate the link to the Flask application: 
 - In your Microsoft Azure account, search and click on "App Services".
